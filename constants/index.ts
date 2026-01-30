@@ -1,5 +1,6 @@
 export const SITE_CONFIG = {
   name: "Lázaro Inmobiliaria",
+  hero_1: "Servicios inmobiliarios de confianza",
   slogan: "Vecinos ayudando a vecinos",
   description: "Gestión integral, ética y transparente para la compra y venta de propiedades en Zaragoza.",
   contact: {
