@@ -19,5 +19,10 @@ export const SITE_CONFIG = {
     { name: "PROPIEDADES", href: "/propiedades" }, // Lo dejaremos preparado
     { name: "SOBRE MÍ", href: "/sobre-mi" },
     { name: "CONTACTO", href: "/contacto" },
-  ]
+  ],
+  about: {
+
+
+  }
+  
 };

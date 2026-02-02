@@ -35,13 +35,11 @@ export default function Hero() {
           </span>
           
           {/* Título Principal */}
-          {/* CORRECCIÓN: text-4xl para móvil, sube a 6xl y 7xl en pantallas grandes */}
           <h1 className="text-4xl sm:text-6xl md:text-7xl font-serif font-bold text-white drop-shadow-2xl animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-100 leading-tight">
             {SITE_CONFIG.slogan}
           </h1>
 
           {/* Barra Horizontal blanca */}
-          {/* CORRECCIÓN: w-24 en móvil (pequeña) y md:w-48 en escritorio (más larga) */}
           <div className="h-1 w-60 md:w-180 bg-white mx-auto my-6 md:my-8 rounded-full shadow-sm animate-in fade-in zoom-in duration-1000 delay-150"></div>
 
           {/* Descripción */}
