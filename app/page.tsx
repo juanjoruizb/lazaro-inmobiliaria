@@ -1,5 +1,6 @@
 import Hero from "@/components/sections/Hero";
 import About from "@/components/sections/About";
+import Contact from "@/components/sections/Contact"; // <--- Importar
 
 export default function Home() {
   return (
@@ -7,8 +8,8 @@ export default function Home() {
       <Hero />
       <About />
       
-      {/* Sección temporal de "Propiedades Próximamente" (Foto 4) */}
-      <section className="py-24 bg-lazaro-50 text-center">
+      {/* Sección temporal de Propiedades */}
+      <section className="py-24 bg-lazaro-50 text-center border-b border-gray-200">
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-3xl font-serif text-lazaro-blue mb-4">
             Nuestras Propiedades
@@ -22,6 +23,10 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* NUEVA SECCIÓN CONTACTO */}
+      <Contact />
+      
     </main>
   );
 }
