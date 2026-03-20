@@ -53,9 +53,6 @@ export default function FlipCard({ title, subtitle, imageSrc, imageAlt, children
                 fill 
                 className="object-cover" 
             />
-            
-            {/* Capa oscura suave */}
-            <div className="absolute inset-0 bg-black/20"></div>
 
             {/* Indicador de Girar (Abajo) */}
             <div className="absolute bottom-6 left-0 right-0 flex items-center justify-center z-10">

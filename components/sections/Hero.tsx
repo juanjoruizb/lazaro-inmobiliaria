@@ -7,7 +7,7 @@ import { SITE_CONFIG } from "@/constants";
 
 export default function Hero() {
   return (
-    <section className="relative h-[90vh] flex items-center justify-center overflow-hidden bg-gray-200">
+    <section id="hero" className="relative h-[90vh] flex items-center justify-center overflow-hidden bg-gray-200">
       
     {/* 1. VIDEO DE FONDO */}
       <div className="absolute inset-0 z-0">

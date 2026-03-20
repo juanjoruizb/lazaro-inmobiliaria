@@ -4,7 +4,7 @@ import FeatureRow from "@/components/ui/FeatureRow"; // Tu nuevo componente escr
 
 export default function About() {
   return (
-    <section className="py-12 md:py-24 bg-white">
+    <section id="about" className="py-12 md:py-24 bg-white">
       
       {/* ==============================================
           VISTA MÓVIL: CARRUSEL (FlipCards)
@@ -37,7 +37,7 @@ export default function About() {
             <FlipCard 
                 subtitle="¿Qué hacemos?"
                 title="Servicios Integrales"
-                imageSrc="/logo.png" 
+                imageSrc="/Hero_2.jpg" 
                 imageAlt="Servicios Inmobiliarios"
             >
                  <div className="text-gray-600 space-y-4 text-base font-light leading-relaxed">
@@ -106,7 +106,7 @@ export default function About() {
         <FeatureRow
             subtitle="¿Qué hacemos?"
             title="Servicios Integrales"
-            imageSrc="/logo.png"
+            imageSrc="/Hero_2.jpg"
             imageAlt="Servicio cercano"
             imageLeft={true}
             // Aquí NO pasamos imageOverlay, así que no sale nada
@@ -127,9 +127,9 @@ export default function About() {
                 </p>
             </blockquote>
 
-            <button className="inline-block mt-4 text-lazaro-gold font-medium border-b border-lazaro-gold hover:text-lazaro-blue hover:border-lazaro-blue transition-all pb-1 tracking-wide uppercase text-sm">
-              Ver todos nuestros servicios
-            </button>
+            <p className="inline-block mt-4 text-lazaro-gold font-medium border-b border-lazaro-gold hover:text-lazaro-blue hover:border-lazaro-blue transition-all pb-1 tracking-wide uppercase text-sm">
+              Esperamos vuestra visita
+            </p>
         </FeatureRow>
 
       </div>

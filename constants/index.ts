@@ -15,10 +15,10 @@ export const SITE_CONFIG = {
     cif: "B-09940933",
   },
   navLinks: [
-    { name: "INICIO", href: "/" },
-    { name: "PROPIEDADES", href: "/propiedades" }, // Lo dejaremos preparado
-    { name: "SOBRE MÍ", href: "/sobre-mi" },
-    { name: "CONTACTO", href: "/contacto" },
+    { name: "INICIO", href: "#hero" },
+    { name: "SOBRE NOSOTROS", href: "#about" },
+    { name: "PROPIEDADES", href: "#propiedades" }, 
+    { name: "CONTACTO", href: "#contacto" },
   ],
   about: {
 

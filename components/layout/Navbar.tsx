@@ -13,7 +13,7 @@ export default function Navbar() {
         <div className="flex justify-between h-20 items-center">
           
           {/* LOGO DINÁMICO */}
-          <Link href="/" className="flex flex-col group">
+          <Link href="/#hero" className="flex flex-col group">
             <span className="text-2xl font-serif font-bold text-lazaro-gold tracking-wide group-hover:text-white transition-colors">
               LÁZARO
             </span>

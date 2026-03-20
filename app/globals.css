@@ -1,4 +1,7 @@
 @import "tailwindcss";
+html {
+  scroll-behavior: smooth;
+}
 
 @theme {
   /* Definimos tus colores corporativos aquí */
