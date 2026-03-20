@@ -35,7 +35,7 @@ export default function Navbar() {
             ))}
             
             <Link 
-              href="/contacto" 
+              href="#contacto" 
               className="bg-lazaro-gold text-white px-6 py-2.5 rounded-sm font-medium hover:bg-lazaro-goldHover transition-colors flex items-center gap-2"
             >
               <Phone size={16} />
@@ -67,11 +67,11 @@ export default function Navbar() {
               </Link>
             ))}
             <Link 
-              href="/contacto" 
+              href="#contacto" 
               className="block py-3 text-lazaro-gold font-bold mt-2" 
               onClick={() => setIsOpen(false)}
             >
-              CONTACTAR AHORA
+              CONTACTAR
             </Link>
           </div>
         </div>

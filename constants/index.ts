@@ -18,7 +18,6 @@ export const SITE_CONFIG = {
     { name: "INICIO", href: "#hero" },
     { name: "SOBRE NOSOTROS", href: "#about" },
     { name: "PROPIEDADES", href: "#propiedades" }, 
-    { name: "CONTACTO", href: "#contacto" },
   ],
   about: {
 
