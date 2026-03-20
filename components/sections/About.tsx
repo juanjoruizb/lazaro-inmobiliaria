@@ -30,6 +30,10 @@ export default function About() {
                         <span className="block text-xs text-gray-400 uppercase">Llámanos</span>
                         <p className="font-serif text-lazaro-blue">{SITE_CONFIG.contact.phone1}</p>
                     </div>
+                    <div className="pt-2 border-t border-gray-100 mt-2">
+                        <span className="block text-xs text-gray-400 uppercase">Visítanos</span>
+                        <p className="font-serif text-lazaro-blue">Santa Isabel 73, Zaragoza</p>
+                    </div>
                 </div>
             </FlipCard>
 
